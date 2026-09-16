@@ -256,3 +256,54 @@ nav ul.flex {
 .ilustracao-sobre .bolha-5 { width: 70px; height: 70px; top: 54%; left: 52%; background-color: rgba(11, 10, 18, 0.35); }
 .ilustracao-sobre .bolha-6 { width: 84px; height: 84px; top: 46%; left: 76%; background-color: rgba(11, 10, 18, 0.4); }
 
+/* depoimentos */
+
+.clientes {
+    background-color: #0B0A12;
+    text-align: center;
+    padding: 90px 32px;
+}
+
+.clientes .subtitulo {
+    text-align: center;
+}
+
+.clientes .title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.cards-depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card-depoimento {
+    background-color: #241E30;
+    border-radius: 14px;
+    padding: 28px 26px;
+    width: 320px;
+    text-align: center;
+}
+
+.card-depoimento .circulo {
+    width: 42px;
+    height: 42px;
+    background-color: #A65FD2;
+    border: none;
+    margin: 0 auto 18px;
+}
+
+.card-depoimento .text {
+    margin-bottom: 18px;
+}
+
+.card-depoimento h6.text {
+    font-weight: 600;
+    color: #F4F2F8;
+}
+
