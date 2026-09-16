@@ -124,3 +124,25 @@ nav ul.flex {
 .menu-item:hover {
     color: #F4F2F8;
 }
+
+/* inicio */
+
+.inicio {
+    background-color: #3B2458;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 32px 110px;
+}
+
+.inicio .title {
+    font-size: 42px;
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+.inicio .text {
+    max-width: 520px;
+    margin-bottom: 34px;
+}
