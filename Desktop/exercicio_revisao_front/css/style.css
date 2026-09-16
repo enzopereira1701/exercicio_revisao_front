@@ -92,3 +92,35 @@ a {
 .cabecalho-secao .title {
     margin-bottom: 0;
 }
+
+/* header */
+
+header {
+    background-color: #3B2458;
+}
+
+nav .flex {
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 32px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul.flex {
+    gap: 36px;
+}
+
+.menu-item {
+    color: #B6AEC4;
+    transition: all .3s ease;
+}
+
+.menu-item:hover {
+    color: #F4F2F8;
+}
