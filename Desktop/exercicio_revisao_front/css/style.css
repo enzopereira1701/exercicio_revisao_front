@@ -195,3 +195,64 @@ nav ul.flex {
     color: #F4F2F8;
     margin-bottom: 12px;
 }
+
+/* sobre nós */
+
+.sobre {
+    background-color: #241E30;
+    padding: 90px 32px;
+}
+
+.sobre .cabecalho-secao {
+    max-width: 1120px;
+    margin: 0 auto 56px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.texto-sobre {
+    width: 50%;
+}
+
+.texto-sobre h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #C98BEF;
+    margin-bottom: 18px;
+}
+
+.texto-sobre .text {
+    margin-bottom: 16px;
+}
+
+.ilustracao-sobre {
+    width: 45%;
+    height: 300px;
+    border-radius: 14px;
+    position: relative;
+    overflow: hidden;
+    background-color: #A65FD2;
+    background-image: radial-gradient(circle at 30% 30%, #A65FD2, #241E30 75%);
+}
+
+.ilustracao-sobre .bolha {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(244, 242, 248, 0.35);
+}
+
+.ilustracao-sobre .bolha-1 { width: 60px; height: 60px; top: 34%; left: 12%; background-color: rgba(244, 242, 248, 0.45); }
+.ilustracao-sobre .bolha-2 { width: 78px; height: 78px; top: 22%; left: 34%; background-color: rgba(244, 242, 248, 0.3); }
+.ilustracao-sobre .bolha-3 { width: 96px; height: 96px; top: 18%; left: 62%; background-color: rgba(11, 10, 18, 0.25); }
+.ilustracao-sobre .bolha-4 { width: 60px; height: 60px; top: 58%; left: 30%; background-color: rgba(11, 10, 18, 0.3); }
+.ilustracao-sobre .bolha-5 { width: 70px; height: 70px; top: 54%; left: 52%; background-color: rgba(11, 10, 18, 0.35); }
+.ilustracao-sobre .bolha-6 { width: 84px; height: 84px; top: 46%; left: 76%; background-color: rgba(11, 10, 18, 0.4); }
+
