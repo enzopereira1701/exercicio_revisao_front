@@ -401,3 +401,68 @@ nav ul.flex {
     background-color: #C98BEF;
 }
 
+/* footer */
+
+.rodape {
+    background-color: #14111C;
+    padding: 56px 32px 32px;
+}
+
+.rodape-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    max-width: 1120px;
+    margin: 0 auto 40px;
+}
+
+.rodape .logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.rodape-colunas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.rodape-coluna {
+    text-align: left;
+}
+
+.rodape-coluna .subtitulo {
+    color: #A65FD2;
+    margin-bottom: 14px;
+}
+
+.rodape-coluna ul li {
+    margin-bottom: 8px;
+}
+
+.rodape-coluna a.text,
+.rodape-coluna p.text {
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.rodape-coluna a.text:hover {
+    color: #F4F2F8;
+}
+
+.rodape-linha {
+    border: none;
+    border-top: 1px solid #C98BEF;
+    max-width: 1120px;
+    margin: 0 auto 24px;
+}
+
+.rodape-copyright {
+    text-align: center;
+    margin-bottom: 0;
+}
