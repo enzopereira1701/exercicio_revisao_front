@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0B0A12;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    color: #F4F2F8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.text {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #B6AEC4;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #A65FD2;
+    color: #F4F2F8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 2px solid #A65FD2;
+    border-radius: 8px;
+    padding: 13px 30px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C98BEF;
+    border-color: #C98BEF;
+}
+
+.circulo {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #C98BEF;
+}
+
+.subtitulo {
+    display: block;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A65FD2;
+    margin-bottom: 10px;
+}
+
+.cabecalho-secao {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.cabecalho-secao .title {
+    margin-bottom: 0;
+}
+
+
+/* header */
+
+header {
+    background-color: #3B2458;
+}
+
+nav .flex {
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 32px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul.flex {
+    gap: 36px;
+}
+
+.menu-item {
+    color: #B6AEC4;
+    transition: all .3s ease;
+}
+
+.menu-item:hover {
+    color: #F4F2F8;
+}
+
+
+/* inicio */
+
+.inicio {
+    background-color: #3B2458;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 32px 110px;
+}
+
+.inicio .title {
+    font-size: 42px;
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+.inicio .text {
+    max-width: 520px;
+    margin-bottom: 34px;
+}
+
+
+/* serviços*/
+
+.servicos {
+    background-color: #0B0A12;
+    text-align: center;
+    padding: 90px 32px;
+}
+
+.servicos .subtitulo {
+    text-align: center;
+}
+
+.servicos .title {
+    text-align: center;
+}
+
+.servicos .text {
+    text-align: center;
+    max-width: 620px;
+    margin: 14px auto 56px;
+}
+
+.cards-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card-servico {
+    background-color: #241E30;
+    border-radius: 14px;
+    padding: 28px 26px;
+    width: 320px;
+    text-align: left;
+}
+
+.card-servico h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #F4F2F8;
+    margin-bottom: 12px;
+}
+
+
+/* sobre nós */
+
+.sobre {
+    background-color: #241E30;
+    padding: 90px 32px;
+}
+
+.sobre .cabecalho-secao {
+    max-width: 1120px;
+    margin: 0 auto 56px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.texto-sobre {
+    width: 50%;
+}
+
+.texto-sobre h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #C98BEF;
+    margin-bottom: 18px;
+}
+
+.texto-sobre .text {
+    margin-bottom: 16px;
+}
+
+.ilustracao-sobre {
+    width: 45%;
+    height: 300px;
+    border-radius: 14px;
+    position: relative;
+    overflow: hidden;
+    background-color: #A65FD2;
+    background-image: radial-gradient(circle at 30% 30%, #A65FD2, #241E30 75%);
+}
+
+.ilustracao-sobre .bolha {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(244, 242, 248, 0.35);
+}
+
+.ilustracao-sobre .bolha-1 { width: 60px; height: 60px; top: 34%; left: 12%; background-color: rgba(244, 242, 248, 0.45); }
+.ilustracao-sobre .bolha-2 { width: 78px; height: 78px; top: 22%; left: 34%; background-color: rgba(244, 242, 248, 0.3); }
+.ilustracao-sobre .bolha-3 { width: 96px; height: 96px; top: 18%; left: 62%; background-color: rgba(11, 10, 18, 0.25); }
+.ilustracao-sobre .bolha-4 { width: 60px; height: 60px; top: 58%; left: 30%; background-color: rgba(11, 10, 18, 0.3); }
+.ilustracao-sobre .bolha-5 { width: 70px; height: 70px; top: 54%; left: 52%; background-color: rgba(11, 10, 18, 0.35); }
+.ilustracao-sobre .bolha-6 { width: 84px; height: 84px; top: 46%; left: 76%; background-color: rgba(11, 10, 18, 0.4); }
+
+
+/* depoimentos */
+
+.clientes {
+    background-color: #0B0A12;
+    text-align: center;
+    padding: 90px 32px;
+}
+
+.clientes .subtitulo {
+    text-align: center;
+}
+
+.clientes .title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.cards-depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1120px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card-depoimento {
+    background-color: #241E30;
+    border-radius: 14px;
+    padding: 28px 26px;
+    width: 320px;
+    text-align: center;
+}
+
+.card-depoimento .circulo {
+    width: 42px;
+    height: 42px;
+    background-color: #A65FD2;
+    border: none;
+    margin: 0 auto 18px;
+}
+
+.card-depoimento .text {
+    margin-bottom: 18px;
+}
+
+.card-depoimento h6.text {
+    font-weight: 600;
+    color: #F4F2F8;
+}
+
+
+/* contato */
+
+.contato {
+    background-color: #0B0A12;
+    padding: 90px 32px;
+}
+
+.contato .cabecalho-secao {
+    max-width: 1120px;
+    margin: 0 auto 40px;
+}
+
+.conteudo-contato {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.ilustracao-contato {
+    width: 45%;
+    border-radius: 14px;
+    position: relative;
+    overflow: hidden;
+    background-color: #A65FD2;
+    background-image: radial-gradient(circle at 30% 70%, #A65FD2, #0B0A12 80%);
+}
+
+.ilustracao-contato .bolha-contorno {
+    position: absolute;
+    border-radius: 50%;
+    border: 1.5px solid rgba(244, 242, 248, 0.5);
+}
+
+.ilustracao-contato .contorno-1 { width: 40px; height: 40px; top: 14%; left: 14%; }
+.ilustracao-contato .contorno-2 { width: 66px; height: 66px; top: 28%; left: 32%; }
+.ilustracao-contato .contorno-3 { width: 90px; height: 90px; top: 12%; left: 58%; }
+.ilustracao-contato .contorno-4 { width: 48px; height: 48px; top: 56%; left: 20%; }
+.ilustracao-contato .contorno-5 { width: 60px; height: 60px; top: 62%; left: 44%; }
+.ilustracao-contato .contorno-6 { width: 78px; height: 78px; top: 46%; left: 68%; }
+
+.contato form {
+    width: 45%;
+    background-color: #241E30;
+    border-radius: 14px;
+    padding: 32px;
+}
+
+.contato form h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #C98BEF;
+    margin-bottom: 8px;
+}
+
+.contato form .text {
+    margin-bottom: 22px;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    background-color: #0B0A12;
+    border: 1px solid #B6AEC4;
+    border-radius: 8px;
+    padding: 11px 13px;
+    color: #F4F2F8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.contato textarea {
+    height: 90px;
+}
+
+.contato input[type="submit"] {
+    background-color: #A65FD2;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: auto;
+}
+
+.contato input[type="submit"]:hover {
+    background-color: #C98BEF;
+}
+
+
+/* footer */
+
+.rodape {
+    background-color: #14111C;
+    padding: 56px 32px 32px;
+}
+
+.rodape-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    max-width: 1120px;
+    margin: 0 auto 40px;
+}
+
+.rodape .logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.rodape-colunas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.rodape-coluna {
+    text-align: left;
+}
+
+.rodape-coluna .subtitulo {
+    color: #A65FD2;
+    margin-bottom: 14px;
+}
+
+.rodape-coluna ul li {
+    margin-bottom: 8px;
+}
+
+.rodape-coluna a.text,
+.rodape-coluna p.text {
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.rodape-coluna a.text:hover {
+    color: #F4F2F8;
+}
+
+.rodape-linha {
+    border: none;
+    border-top: 1px solid #C98BEF;
+    max-width: 1120px;
+    margin: 0 auto 24px;
+}
+
+.rodape-copyright {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/* responsividade */
+
+@media (max-width: 700px) {
+    nav .flex {
+        flex-direction: column;
+        gap: 16px;
+        padding: 22px;
+    }
+
+    .inicio {
+        padding: 60px 22px 70px;
+    }
+
+    .inicio .title {
+        font-size: 30px;
+    }
+
+    .servicos {
+        padding: 60px 22px;
+    }
+
+    .card-servico {
+        width: 100%;
+    }
+
+    .sobre {
+        padding: 60px 22px;
+    }
+
+    .conteudo-sobre {
+        flex-direction: column;
+    }
+
+    .texto-sobre {
+        width: 100%;
+    }
+
+    .ilustracao-sobre {
+        width: 100%;
+        height: 220px;
+    }
+
+    .clientes {
+        padding: 60px 22px;
+    }
+
+    .card-depoimento {
+        width: 100%;
+    }
+
+    .contato {
+        padding: 60px 22px;
+    }
+
+    .conteudo-contato {
+        flex-direction: column;
+    }
+
+    .ilustracao-contato {
+        width: 100%;
+        height: 200px;
+    }
+
+    .contato form {
+        width: 100%;
+    }
+
+    .rodape-topo {
+        gap: 32px;
+    }
+
+    .rodape-colunas {
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .rodape-coluna {
+        text-align: center;
+    }
+}
