@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0B0A12;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    color: #F4F2F8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.text {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #B6AEC4;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #A65FD2;
+    color: #F4F2F8;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 2px solid #A65FD2;
+    border-radius: 8px;
+    padding: 13px 30px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C98BEF;
+    border-color: #C98BEF;
+}
+
+.circulo {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #C98BEF;
+}
+
+.subtitulo {
+    display: block;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A65FD2;
+    margin-bottom: 10px;
+}
+
+.cabecalho-secao {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.cabecalho-secao .title {
+    margin-bottom: 0;
+}
